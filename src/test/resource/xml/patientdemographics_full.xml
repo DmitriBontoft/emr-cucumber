@@ -1,0 +1,48 @@
+<recordTarget xmlns="urn:hl7-org:v3" xmlns:ns2="urn:hl7-org:sdtc">
+  <patientRole>
+    <id root="2.16.840.1.113883.4.391.320412" extension="9198" assigningAuthorityName="QATAMY-Instance"/>
+    <id root="2.16.840.1.113883.4.391.320412.1" extension="9198" assigningAuthorityName="QATAMY-Instance ACC NO"/>
+    <id root="2.16.840.1.113883.4.572" extension="abc-125367" assigningAuthorityName="HCID"/>
+    <addr use="PST">
+      <streetAddressLine>464 Collins Street</streetAddressLine>
+      <streetAddressLine>Parker Drive</streetAddressLine>
+      <city>Frenchville</city>
+      <state>PA</state>
+      <postalCode>16836</postalCode>
+      <country>US</country>
+    </addr>
+    <telecom use="HP" value="tel:920-435-1416"/>
+    <telecom use="MC" value="tel:920-676-9158"/>
+    <telecom use="WP" value="tel:920-676-9155-1234"/>
+    <telecom value="mailto:hardik3.patel@eclinicalworks.com"/>
+    <patient>
+      <name>
+        <given>GoldStandard</given>
+        <given>M</given>
+        <family>RecordTarget</family>
+        <prefix>Mr.</prefix>
+        <suffix>Jr</suffix>
+      </name>
+      <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" displayName="Female"/>
+      <birthTime value="19890307"/>
+      <raceCode code="2106-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="White"/>
+      <ns2:raceCode code="2111-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="French"/>
+      <ns2:raceCode code="2076-8" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Native Hawaiian or Other Pacific Islander"/>
+      <ns2:raceCode code="2078-4" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Polynesian"/>
+      <ns2:raceCode code="1002-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="American Indian or Alaska Native"/>
+      <ns2:raceCode code="1006-6" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Abenaki"/>
+      <ns2:raceCode code="2028-9" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Asian"/>
+      <ns2:raceCode code="2031-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Bhutanese"/>
+      <ns2:raceCode code="2054-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Black or African American"/>
+      <ns2:raceCode code="2058-6" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="African American"/>
+      <ns2:raceCode code="2131-1" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Other Race"/>
+      <ethnicGroupCode code="2135-2" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Hispanic or Latino"/>
+      <ns2:ethnicGroupCode code="2137-8" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Spaniard"/>
+      <ns2:ethnicGroupCode code="2186-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Not Hispanic or Latino"/>
+      <languageCommunication>
+        <languageCode code="en"/>
+        <preferenceInd value="true"/>
+      </languageCommunication>
+    </patient>
+  </patientRole>
+</recordTarget>
